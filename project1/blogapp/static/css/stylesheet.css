@@ -1,0 +1,77 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color and set the font family */
+  body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the navigation bar */
+  .navbar {
+    background-color: #dc3545;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  /* Style the container */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Style the main content area */
+  .col-lg-8 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the search card */
+  .card.text-bg-primary {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #dc3545;
+    color: #fff;
+    border-bottom: none;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Style the copyright text */
+  .text-muted {
+    font-size: 0.9rem;
+  }
+  
+  /* Style the "Go!" button */
+  #button-search {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  #button-search:hover {
+    background-color: #c82333;
+  }
+  

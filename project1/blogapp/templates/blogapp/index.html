@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row">
+    {% for blog in blogs %}
+    <div class="col-lg-6">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{blog.title}}</h5>
+              <p class="card-text">{{blog.body | truncatechars:"100"}}</p>
+              <a href="{{blog.get_absolute_url}}" class="btn btn-primary">Read more</a>
+            </div>
+        </div> 
+    </div>
+    {% endfor %}
+</div>
+{% endblock content %}
+
+
+
